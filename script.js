@@ -51,5 +51,5 @@ function btncopiar() {
     textoCopiado.select();
     navigator.clipboard.writeText(textoCopiado.value);
     alert("Texto copiado,  cole ele na aréa de transferencia!");
-   
+   mensagem.style.backgroundImage="none"
 }
