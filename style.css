@@ -1,0 +1,79 @@
+
+body {
+	background-color:#ABCBCB;
+}
+
+header {
+	margin-top:30px;
+	margin-left:200px;
+}
+
+
+
+.main {
+	display:flex;
+	margin-top:50px;
+	margin-left:350px;
+	margin-bottom:100px;
+}
+
+.input-texto{
+	 margin-top: 150px;
+	margin-top:  40px;
+}
+
+.mensagem {
+	position:relative;
+	margin-top:  40px;
+	margin-left: 220px;
+    background-image: url("file:///C:/Users/claudio/Desktop/CodificadorDecodificador/boneco.png");
+    background-repeat: no-repeat;
+}
+
+
+.botoes {
+	display:flex;
+	flex-direction: row;
+	margin-top:20px;
+	
+}
+
+
+.encriptar {
+	background-color:#0A3871;
+ 	color: #FFFFFF;
+	 border-radius: 3px;
+	
+}
+
+.encriptar:hover {
+	transform: scale(1.1);
+}
+
+.decriptar {
+	margin-left: 115px;
+	background-color:#0A3871;
+ 	color: #FFFFFF;
+	 border-radius: 3px;
+
+}
+
+.decriptar:hover {
+	transform: scale(1.1);
+	}
+
+.copiar {
+	margin-left: 320px;
+	background-color:#0A3871;
+ 	color: #FFFFFF;
+	 border-radius: 3px;
+	
+}
+
+.copiar:hover {
+	transform: scale(1.1);
+	}
+
+.informacao {
+	font-size:15px;
+}
